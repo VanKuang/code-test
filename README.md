@@ -6,5 +6,8 @@ Which can input payments, and display current positions per minute
 Main.java
 ``
 
+### console
+![alt text](https://github.com/VanKuang/code-test/blob/console.jpg?raw=true)
+
 ### TODO
 Specify USD equivalent rate and calculate correponding USD amount for non-USD currency
