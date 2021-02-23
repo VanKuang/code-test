@@ -38,7 +38,9 @@ public class PrintScheduler {
             try {
                 final Set<Payment> payments = paymentRepository.getAll();
                 final StringBuilder content = new StringBuilder();
-                content.append("===========Current payments===========")
+                content.append(System.lineSeparator())
+                        .append(System.lineSeparator())
+                        .append("===========Current payments===========")
                         .append(System.lineSeparator())
                         .append("====Timestamp: ")
                         .append(Instant.now())
@@ -49,7 +51,9 @@ public class PrintScheduler {
                                 .append(" ")
                                 .append(p.getAmount().toPlainString())
                                 .append(System.lineSeparator()));
-                content.append("=======================================");
+                content.append("=======================================")
+                        .append(System.lineSeparator())
+                        .append(System.lineSeparator());
                 System.out.println(content.toString());
             } catch (Exception e) {
                 e.printStackTrace();

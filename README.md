@@ -7,7 +7,7 @@ Main.java
 ``
 
 ### console
-![alt text](https://github.com/VanKuang/code-test/blob/master/blob/console.jpg?raw=true)
+![alt text](https://github.com/VanKuang/code-test/blob/master/blob/console.png?raw=true)
 
 ### TODO
 Specify USD equivalent rate and calculate correponding USD amount for non-USD currency

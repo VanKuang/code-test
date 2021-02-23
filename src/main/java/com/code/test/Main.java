@@ -21,7 +21,7 @@ public class Main {
             final String input = sc.nextLine();
             if (dispatcher == null) {
                 dispatcher = init(input);
-                System.out.println("Can start input payment...");
+                System.out.println("Can start input payment now...");
             } else {
                 dispatcher.accept(input);
             }
